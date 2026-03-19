@@ -256,7 +256,7 @@ forge test --summary
 forge test --match-path test/OracleSettleUserJourneys.t.sol -vv
 
 # Specific journey
-forge test -vvv --match-test test_journey_yesWin_fullLifecycle
+forge test -vvv --match-test test_create_poolCurrenciesAreYesAndNo
 
 # Gas report
 forge test --gas-report
